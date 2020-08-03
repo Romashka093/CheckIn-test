@@ -1,0 +1,344 @@
+.sideBar {
+  margin-top: 40px;
+  padding-top: 55px;
+  background-color: #ffffff;
+  border-radius: 12px 12px 0px 0px;
+  position: relative;
+}
+
+.closeMenu {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  padding: 5px;
+  top: 20px;
+  right: 20px;
+  background-color: initial;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 336px;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.closeMenu::after {
+  position: absolute;
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-image: url(../../assets/img/close-down.svg);
+  background-repeat: no-repeat;
+  top: 2px;
+  left: 2px;
+}
+
+.sideBarMenu {
+  font-family: TT Norms Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  color: #111157;
+}
+
+.sideBarItem {
+  margin-bottom: 16px;
+}
+
+/* SELECT with options */
+
+.teamSelectorForm {
+  font-family: TT Norms Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 20px 0;
+  position: relative;
+}
+
+.teamSelectorForm::after {
+  position: absolute;
+  display: block;
+  content: '';
+  background-image: url(../../assets/img/blue-title-team-mobile.svg);
+  width: 44px;
+  height: 44px;
+  top: 20px;
+}
+
+.formWrap {
+  position: relative;
+}
+
+.formWrap::before,
+.formWrap::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #e7eaf0;
+}
+
+.formWrap:hover::after {
+  height: 2px;
+  background-color: #6e73f0;
+}
+
+.formWrap:hover,
+.formWrap:hover form,
+.formWrap:hover select {
+  background-color: #e5e6f8;
+}
+
+.teamSelected {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(../../assets/img/path.svg);
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: center;
+  border: none;
+  width: 100%;
+  color: #111157;
+  padding: 12px 0 12px 56px;
+  margin: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.teamSelected:hover {
+  background-image: url(../../assets/img/path-rotate.svg);
+}
+
+/* .selectTeamName {} */
+
+/* TEAM SETTINGS */
+
+.teamStatistic {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 48px 0 0 0;
+}
+
+.teamSettings {
+  margin-bottom: 20px;
+  width: 320px;
+}
+
+.settings {
+  position: relative;
+}
+
+.setting::before {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.setting:first-child::before {
+  background-image: url(../../assets/img/settings/bell.svg);
+  left: 60px;
+}
+
+.setting:first-child:hover::before {
+  background-image: url(../../assets/img/settings/blue-bell.svg);
+  transition: 0.5s ease 0.5s;
+}
+
+.setting:nth-child(2)::before {
+  background-image: url(../../assets/img/settings/person.svg);
+  left: 76px;
+}
+
+.setting:nth-child(2):hover::before {
+  background-image: url(../../assets/img/settings/blue-person.svg);
+  transition: 0.5s ease 0.5s;
+}
+
+.setting:last-child::before {
+  background-image: url(../../assets/img/settings/pen.svg);
+  left: 63px;
+}
+
+.setting:last-child:hover::before {
+  background-image: url(../../assets/img/settings/blue-pen.svg);
+  transition: 0.5s ease 0.5s;
+}
+
+.setting {
+  margin-bottom: 12px;
+  padding: 12px;
+  background: #6e73f0;
+  border: 1px solid #6e73f0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.setting a {
+  color: #ffffff;
+}
+
+.setting:hover,
+.setting:active,
+.setting:focus {
+  border: 1px solid #6e73f0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #f5f7fa;
+  color: #6e73f0;
+  transition: 0.5s ease 0.5s;
+}
+
+.setting:hover a,
+.setting:focus a,
+.setting:active a {
+  color: #6e73f0;
+  transition: 0.5s ease 0.5s;
+}
+
+/* TEAM STATISTIC */
+
+.sectionTitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #414178;
+  text-align: left;
+}
+
+.statisticContainers {
+  background: #ffffff;
+  border: 1px solid #e7eaf0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  /* transform: rotate(90deg); */
+  margin-bottom: 20px;
+}
+
+/* .allTeamContainers {} */
+
+.activityContainer {
+  padding: 54px;
+  background-image: url(../../assets/img/progress-elipse/semi-ellipse.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.activityContainer:not(:last-child) {
+  border-bottom: 1px solid #e7eaf0;
+}
+
+.activityContainer::after {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  bottom: 55%;
+  left: 47%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../assets/img/percent.svg);
+}
+
+.activityContainer:last-child::after {
+  background-image: url(../../assets/img/hurd.svg);
+}
+
+.activityContainer::before {
+  position: absolute;
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 35px;
+}
+
+.activityContainer:first-child::before {
+  background-image: url(../../assets/img/progress-elipse/blue-progress-elipse.svg);
+}
+
+.activityContainer:nth-child(2)::before {
+  background-image: url(../../assets/img/progress-elipse/green-progress-elipse.svg);
+}
+
+.activityContainer:nth-child(3)::before {
+  background-image: url(../../assets/img/progress-elipse/red-progress-elipse.svg);
+}
+
+.activityContainer:nth-child(4)::before {
+  background-image: url(../../assets/img/progress-elipse/yellow-progress-elipse.svg);
+}
+
+/* .visualProgressStatistic {} */
+
+.totalPercentOfActivity {
+  font-family: TT Norms Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.01em;
+  padding-top: 46px;
+  margin-bottom: 8px;
+}
+
+.activityContainer:first-child {
+  color: #6e73f0;
+}
+
+.activityContainer:nth-child(2) {
+  color: #5ecba1;
+}
+
+.activityContainer:nth-child(3) {
+  color: #f06563;
+}
+
+.activityContainer:nth-child(4) {
+  color: #e6a647;
+}
+
+.teamActivityName {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #111157;
+  text-transform: lowercase;
+}
+
+.teamActivityName::first-letter {
+  text-transform: uppercase;
+}
+
+@media (min-width: 767px) {
+}
