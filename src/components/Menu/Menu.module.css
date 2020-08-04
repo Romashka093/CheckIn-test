@@ -12,11 +12,11 @@
 
 .closeMenu {
   position: absolute;
-  width: 48px;
-  height: 48px;
+  width: 24px;
+  height: 24px;
   padding: 5px;
   top: 20px;
-  right: 20px;
+  right: 0;
   background-color: initial;
   border: none;
   outline: none;
@@ -372,12 +372,21 @@
   text-transform: uppercase;
 }
 
+@media (min-width: 375px) {
+  .closeMenu {
+    right: 20px;
+  }
+}
+
 @media (min-width: 767px) {
   .sideBar {
     margin-top: 60px;
   }
   .container {
     max-width: 720px;
+  }
+  .closeMenu {
+    right: 32px;
   }
   /* TEAM SETTINGS */
   .teamStatistic {
