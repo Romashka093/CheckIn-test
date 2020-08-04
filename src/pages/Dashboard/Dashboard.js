@@ -1,9 +1,10 @@
 import React, { Component, Fragment } from 'react';
+import members from '../../data/data.json';
 import Heading from '../../components/Heading/Heading';
 import Menu from '../../components/Menu/Menu';
 import Search from '../../components/Search/Search';
 import MemberCard from '../../components/MemberCard/MemberCard';
-
+console.log(members);
 // import css from './Dashboard.module.css';
 
 class Dashboard extends Component {
@@ -22,14 +23,16 @@ class Dashboard extends Component {
     return (
       <Fragment>
         {!isOpenMenue ? (
-          <Heading handleOpenMenu={this.handleOpenMenu} />
+          <Fragment>
+            <Heading handleOpenMenu={this.handleOpenMenu} />
+            <main>
+              <Search />
+              <MemberCard members={members} />
+            </main>
+          </Fragment>
         ) : (
           <Menu handleOpenMenu={this.handleOpenMenu} />
         )}
-        <main>
-          <Search />
-          <MemberCard />
-        </main>
       </Fragment>
     );
   }

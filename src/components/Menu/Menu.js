@@ -1,11 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import css from './Menu.module.css';
 
 class Menu extends Component {
   state = {};
   render() {
     return (
-      <Fragment>
+      <div className={css.hover}>
         <div className={css.sideBar}>
           <button
             className={css.closeMenu}
@@ -90,7 +90,7 @@ class Menu extends Component {
             </div>
           </div>
         </section>
-      </Fragment>
+      </div>
     );
   }
 }

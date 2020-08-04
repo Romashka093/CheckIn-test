@@ -1,0 +1,244 @@
+{
+  "members": [
+    {
+      "avatar": "require('../../assets/img/member.png')",
+      "name": "Georgia Mashford",
+      "position": "CEO & Founder",
+      "activitys": [
+        {
+          "percent": 88,
+          "name": "Самопочуття"
+        },
+        {
+          "percent": 88,
+          "name": "Залученість"
+        },
+        {
+          "percent": 88,
+          "name": "Блокер"
+        },
+        {
+          "percent": 88,
+          "name": "Настрій"
+        }
+      ],
+      "id": 1
+    },
+    {
+      "avatar": "require('./member.png')",
+      "name": "Georgia Mashford",
+      "position": "Marketing specialist",
+      "activitys": [
+        {
+          "percent": 88,
+          "name": "Самопочуття"
+        },
+        {
+          "percent": 88,
+          "name": "Залученість"
+        },
+        {
+          "percent": 88,
+          "name": "Блокер"
+        },
+        {
+          "percent": 88,
+          "name": "Настрій"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "avatar": "require('./member.png')",
+      "name": "Georgia Mashford",
+      "position": "Senior Developer",
+      "activitys": [
+        {
+          "percent": 88,
+          "name": "Самопочуття"
+        },
+        {
+          "percent": 88,
+          "name": "Залученість"
+        },
+        {
+          "percent": 88,
+          "name": "Блокер"
+        },
+        {
+          "percent": 88,
+          "name": "Настрій"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "avatar": "require('./member.png')",
+      "name": "Georgia Mashford",
+      "position": "Product Manager",
+      "activitys": [
+        {
+          "percent": 88,
+          "name": "Самопочуття"
+        },
+        {
+          "percent": 88,
+          "name": "Залученість"
+        },
+        {
+          "percent": 88,
+          "name": "Блокер"
+        },
+        {
+          "percent": 88,
+          "name": "Настрій"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "avatar": "require('./member.png')",
+      "name": "Georgia Mashford",
+      "position": "Sales manager",
+      "activitys": [
+        {
+          "percent": 88,
+          "name": "Самопочуття"
+        },
+        {
+          "percent": 88,
+          "name": "Залученість"
+        },
+        {
+          "percent": 88,
+          "name": "Блокер"
+        },
+        {
+          "percent": 88,
+          "name": "Настрій"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "avatar": "require('./member.png')",
+      "name": "Georgia Mashford",
+      "position": "Content manager",
+      "activitys": [
+        {
+          "percent": 88,
+          "name": "Самопочуття"
+        },
+        {
+          "percent": 88,
+          "name": "Залученість"
+        },
+        {
+          "percent": 88,
+          "name": "Блокер"
+        },
+        {
+          "percent": 88,
+          "name": "Настрій"
+        }
+      ],
+      "id": 6
+    },
+    {
+      "avatar": "require('./member.png')",
+      "name": "Georgia Mashford",
+      "position": "CFO",
+      "activitys": [
+        {
+          "percent": 88,
+          "name": "Самопочуття"
+        },
+        {
+          "percent": 88,
+          "name": "Залученість"
+        },
+        {
+          "percent": 88,
+          "name": "Блокер"
+        },
+        {
+          "percent": 88,
+          "name": "Настрій"
+        }
+      ],
+      "id": 7
+    },
+    {
+      "avatar": "require('./member.png')",
+      "name": "Georgia Mashford",
+      "position": "Programmer",
+      "activitys": [
+        {
+          "percent": 88,
+          "name": "Самопочуття"
+        },
+        {
+          "percent": 88,
+          "name": "Залученість"
+        },
+        {
+          "percent": 88,
+          "name": "Блокер"
+        },
+        {
+          "percent": 88,
+          "name": "Настрій"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "avatar": "require('./member.png')",
+      "name": "Georgia Mashford",
+      "position": "Programmer",
+      "activitys": [
+        {
+          "percent": 88,
+          "name": "Самопочуття"
+        },
+        {
+          "percent": 88,
+          "name": "Залученість"
+        },
+        {
+          "percent": 88,
+          "name": "Блокер"
+        },
+        {
+          "percent": 88,
+          "name": "Настрій"
+        }
+      ],
+      "id": 9
+    },
+    {
+      "avatar": "require('./member.png')",
+      "name": "Georgia Mashford",
+      "position": "Programmer",
+      "activitys": [
+        {
+          "percent": 88,
+          "name": "Самопочуття"
+        },
+        {
+          "percent": 88,
+          "name": "Залученість"
+        },
+        {
+          "percent": 88,
+          "name": "Блокер"
+        },
+        {
+          "percent": 88,
+          "name": "Настрій"
+        }
+      ],
+      "id": 10
+    }
+  ]
+}

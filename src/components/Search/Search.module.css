@@ -128,11 +128,20 @@
 . {}
 */
 
-/* @media (min-width: 767px) {
-    .searchInput {
-        width: 400px;
-    }
-    .filter {
+@media (min-width: 767px) {
+  .container {
+    max-width: 560px;
+  }
+  .searchInput {
+    width: 400px;
+  }
+  /* .filter {
         display: inline;
-    }
-} */
+    } */
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 990px;
+  }
+}
