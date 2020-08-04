@@ -66,22 +66,22 @@ class Menu extends Component {
               <div className={css.statisticContainers}>
                 <ul className={css.allTeamContainers}>
                   <li className={css.activityContainer}>
-                    <canva className={css.visualProgressStatistic} />
+                    {/* better to use <canva className={css.visualProgressStatistic} /> */}
                     <p className={css.totalPercentOfActivity}>88</p>
                     <p className={css.teamActivityName}>Середній настрій</p>
                   </li>
                   <li className={css.activityContainer}>
-                    <canva className={css.visualProgressStatistic} />
+                    {/* better to use <canva className={css.visualProgressStatistic} /> */}
                     <p className={css.totalPercentOfActivity}>88</p>
                     <p className={css.teamActivityName}>Залученість</p>
                   </li>
                   <li className={css.activityContainer}>
-                    <canva className={css.visualProgressStatistic} />
+                    {/* better to use <canva className={css.visualProgressStatistic} /> */}
                     <p className={css.totalPercentOfActivity}>88</p>
                     <p className={css.teamActivityName}>Блокер</p>
                   </li>
                   <li className={css.activityContainer}>
-                    <canva className={css.visualProgressStatistic} />
+                    {/* better to use <canva className={css.visualProgressStatistic} /> */}
                     <p className={css.totalPercentOfActivity}>88</p>
                     <p className={css.teamActivityName}>Самопочуття</p>
                   </li>

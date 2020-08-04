@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import Heading from '../../components/Heading/Heading';
 import Menu from '../../components/Menu/Menu';
+import Search from '../../components/Search/Search';
+import MemberCard from '../../components/MemberCard/MemberCard';
 
 // import css from './Dashboard.module.css';
 
@@ -24,6 +26,10 @@ class Dashboard extends Component {
         ) : (
           <Menu handleOpenMenu={this.handleOpenMenu} />
         )}
+        <main>
+          <Search />
+          <MemberCard />
+        </main>
       </Fragment>
     );
   }
