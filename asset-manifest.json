@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/check-in-test/static/css/main.5db7bff6.chunk.css",
+    "main.css": "/check-in-test/static/css/main.5c51b808.chunk.css",
     "main.js": "/check-in-test/static/js/main.be11edbc.chunk.js",
     "main.js.map": "/check-in-test/static/js/main.be11edbc.chunk.js.map",
     "runtime-main.js": "/check-in-test/static/js/runtime-main.59bdfff5.js",
@@ -8,9 +8,9 @@
     "static/js/2.ef470450.chunk.js": "/check-in-test/static/js/2.ef470450.chunk.js",
     "static/js/2.ef470450.chunk.js.map": "/check-in-test/static/js/2.ef470450.chunk.js.map",
     "index.html": "/check-in-test/index.html",
-    "precache-manifest.18b2453fb4efb42c269f1db99bc6c2f5.js": "/check-in-test/precache-manifest.18b2453fb4efb42c269f1db99bc6c2f5.js",
+    "precache-manifest.fd901e166fdc1289bdea72539b808040.js": "/check-in-test/precache-manifest.fd901e166fdc1289bdea72539b808040.js",
     "service-worker.js": "/check-in-test/service-worker.js",
-    "static/css/main.5db7bff6.chunk.css.map": "/check-in-test/static/css/main.5db7bff6.chunk.css.map",
+    "static/css/main.5c51b808.chunk.css.map": "/check-in-test/static/css/main.5c51b808.chunk.css.map",
     "static/js/2.ef470450.chunk.js.LICENSE.txt": "/check-in-test/static/js/2.ef470450.chunk.js.LICENSE.txt",
     "static/media/fonts.css": "/check-in-test/static/media/open-sans-v17-latin_cyrillic-ext_cyrillic-regular.e45f0984.woff2",
     "static/media/MemberCard.module.css": "/check-in-test/static/media/stop.8088b793.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.59bdfff5.js",
     "static/js/2.ef470450.chunk.js",
-    "static/css/main.5db7bff6.chunk.css",
+    "static/css/main.5c51b808.chunk.css",
     "static/js/main.be11edbc.chunk.js"
   ]
 }
