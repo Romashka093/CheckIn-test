@@ -21,6 +21,10 @@ function TeamSettings() {
           </a>
         </li>
       </ul>
+      <div className={css.userChoosedTeam}>
+        <p className={css.choosedTeamName}>Digital ваша команда</p>
+        <p className={css.choosedDescriptionTeam}>Всі учасники вашої команди</p>
+      </div>
     </div>
   );
 }

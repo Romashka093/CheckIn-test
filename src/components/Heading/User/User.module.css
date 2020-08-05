@@ -1,5 +1,3 @@
-/* USER */
-
 .user {
   cursor: pointer;
 }
@@ -23,24 +21,20 @@
   .container {
     max-width: 990px;
   }
-  /* .user {} */
   .userInfo {
     display: flex;
-    /* width: 220px; */
     align-items: center;
   }
   .userDataWrap {
     margin-right: 16px;
   }
   .userName {
-    /* position: relative; */
     display: inherit;
     font-family: TT Norms Pro;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     text-align: right;
     letter-spacing: 0.01em;
     color: #5b72d5;
@@ -55,7 +49,4 @@
     text-align: right;
     color: #9fa4af;
   }
-  /* 
-
-*/
 }

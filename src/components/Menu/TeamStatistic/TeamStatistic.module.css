@@ -15,11 +15,8 @@
   border: 1px solid #e7eaf0;
   box-sizing: border-box;
   border-radius: 4px;
-  /* transform: rotate(90deg); */
   margin-bottom: 20px;
 }
-
-/* .allTeamContainers {} */
 
 .activityContainer {
   padding: 54px;
@@ -159,5 +156,42 @@
   }
   .totalPercentOfActivity {
     text-align: center;
+  }
+}
+
+@media (min-width: 1280px) {
+  .statisticContainers {
+    width: 1200px;
+    margin: 0 auto 24px;
+  }
+  .allTeamContainers {
+    flex-wrap: nowrap;
+  }
+  .activityContainer:nth-child(1),
+  .activityContainer:nth-child(2) {
+    border-bottom: none;
+  }
+  .activityContainer:nth-child(odd) {
+    border-right: none;
+  }
+  .activityContainer {
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+  .activityContainer::before {
+    left: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .statisticContainers {
+    width: 1500px;
+  }
+  .activityContainer {
+    padding-left: 132px;
+    padding-right: 132px;
+  }
+  .activityContainer::before {
+    left: 48px;
   }
 }

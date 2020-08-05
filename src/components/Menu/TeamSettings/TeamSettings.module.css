@@ -136,12 +136,11 @@
 
 @media (min-width: 1024px) {
   .teamSettings {
-    margin-top: 10px;
-  }
-  .settings {
-    justify-content: flex-end;
-    max-width: 990px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 840px;
+    margin: 20px auto 0;
+    justify-content: space-between;
   }
   .setting:last-child {
     width: 40px;
@@ -159,5 +158,56 @@
   .setting:last-child::before {
     top: 10px;
     left: 12px;
+  }
+  .userChoosedTeam {
+    background-image: url(../../../assets/img/sideBar/background-of-team-title-1.svg);
+    background-repeat: no-repeat;
+  }
+  .choosedTeamName {
+    font-family: TT Norms Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 26px;
+    color: #111157;
+    padding-left: 48px;
+    text-transform: lowercase;
+  }
+  .choosedTeamName::first-letter {
+    text-transform: uppercase;
+  }
+  .choosedDescriptionTeam {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    color: #9fa4af;
+    padding-left: 48px;
+    text-transform: lowercase;
+  }
+  .choosedDescriptionTeam::first-letter {
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 1280px) {
+  .teamSettings {
+    margin-top: 50px;
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .teamSettings {
+    max-width: 1500px;
+  }
+  .choosedTeamName {
+    font-size: 29px;
+    line-height: 30px;
+  }
+  .choosedDescriptionTeam {
+    font-size: 14px;
+    line-height: 19px;
   }
 }

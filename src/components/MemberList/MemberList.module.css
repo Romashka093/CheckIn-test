@@ -1,9 +1,3 @@
-/* TEAM CARDS */
-
-/* .member {} */
-
-/* .teamCardsSection {} */
-
 .container {
   max-width: 336px;
   margin: 0 auto;
@@ -13,7 +7,6 @@
 }
 
 @media (min-width: 767px) {
-  /* .teamCardsSection {} */
   .container {
     max-width: 720px;
   }
@@ -22,5 +15,17 @@
 @media (min-width: 1024px) {
   .container {
     max-width: 840px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1500px;
   }
 }

@@ -36,7 +36,9 @@ class Dashboard extends Component {
           <Fragment>
             {isOpenSideBar &&
               window.matchMedia('(min-width: 1024px)').matches && <SideBar />}
-            <div className={isOpenSideBar && css.containerForSideBar}>
+            <div
+              className={isOpenSideBar ? css.containerForSideBar : undefined}
+            >
               <Heading
                 handleOpenMenu={this.handleOpenMenu}
                 handleOpenSideBar={this.handleOpenSideBar.bind(this)}

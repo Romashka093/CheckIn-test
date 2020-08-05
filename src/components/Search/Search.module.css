@@ -1,5 +1,3 @@
-/* SEARCH */
-
 .searchSection {
   margin: 0 auto;
 }
@@ -59,7 +57,6 @@
   font-style: normal;
   font-weight: 600;
   padding-right: 18px;
-  /* identical to box height */
   text-transform: uppercase;
   color: #6e73f0;
 }
@@ -76,7 +73,7 @@
   bottom: 30px;
 }
 
-/* it's doesn't work*/
+/* work only hover */
 
 .searchIcon:hover,
 .searchIcon:focus,
@@ -141,5 +138,38 @@
     top: 26%;
     left: 32%;
     transform: translate(-50%, -50%);
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+  }
+  .searchForm {
+    flex-direction: row-reverse;
+  }
+  .searchInput {
+    width: 200px;
+    margin: 0;
+    padding: 9px 0 8px 30px;
+  }
+  .searchIcon {
+    top: 68%;
+    left: 85%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1500px;
+  }
+  .searchInput {
+    width: 400px;
+    padding: 13px 0 16px 40px;
+    font-size: 18px;
+  }
+  .searchIcon {
+    top: 65%;
+    left: 75%;
   }
 }

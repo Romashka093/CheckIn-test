@@ -82,12 +82,6 @@
   border-radius: 1px;
 }
 
-/* @media (min-width: 767px) {
-    .container {
-        max-width: 720px;
-    }
-} */
-
 @media (min-width: 1024px) {
   .container {
     position: absolute;
@@ -101,12 +95,6 @@
   .userActionItem {
     padding: 52px 30px 26px 30px;
   }
-  /* 
-    .userActions {
-        font-size: 20px;
-        line-height: 24px;
-    }
-    */
   .userTeamLink::before,
   .checkingTeamLink::before {
     position: absolute;
@@ -114,5 +102,15 @@
     content: '';
     width: 0;
     background: none;
+  }
+}
+
+@media (min-width: 1600px) {
+  .userActions {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .userActionItem {
+    padding: 52px 20px 22px 20px;
   }
 }

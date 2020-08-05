@@ -2,7 +2,6 @@ import React from 'react';
 import css from './MemberCard.module.css';
 
 function MemberCard({ members }) {
-  console.log(members);
   return (
     <ul className={css.teamMemberCards}>
       {members.map(member => (
@@ -13,7 +12,6 @@ function MemberCard({ members }) {
                 <div className={css.memberAvatar}>
                   <img
                     alt="member avatar"
-                    // src={member.avatar}
                     src={require('../../../assets/img/member.png')}
                   />
                 </div>

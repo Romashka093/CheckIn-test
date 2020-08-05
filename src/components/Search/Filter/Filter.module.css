@@ -2,14 +2,6 @@
   display: none;
 }
 
-/* 
-.filterCategoriesGroup {}
-.filterCategoryType {}
-.filterItemType {}
-. {}
-. {}
-*/
-
 @media (min-width: 1024px) {
   .filter {
     display: flex;
@@ -41,8 +33,9 @@
   }
   .filterItemType {
     padding: 10px;
+  }
+  .filterItemType:not(:last-child) {
     border-right: 1px solid #e7eaf0;
-    /* transform: rotate(90deg); */
   }
   .filterItemType:focus,
   .filterItemType:active {
@@ -58,10 +51,26 @@
   .filterItemType a:active {
     color: #7175d8;
   }
-  /* 
-    . {}
-    . {}
-    . {}
-        
-    */
+}
+
+@media (min-width: 1280px) {
+  .filter {
+    flex-direction: initial;
+  }
+  .filterListCategoriesGroup {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1600px) {
+  .filter {
+    justify-content: space-between;
+    width: 71%;
+  }
+  .filterItemType {
+    padding: 17px 8px;
+  }
+  .filterCategoryType {
+    font-size: 14px;
+  }
 }

@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import css from './Heading.module.css';
 import Nav from './Nav/Nav';
 import Logo from './Logo/Logo';
