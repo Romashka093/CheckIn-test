@@ -18,6 +18,9 @@ function SideBar() {
           <li className={css.selectTeamName}>
             <a href={'/'}>3+3 digital innovational HAB</a>
           </li>
+          <li data-title="Створити нову команду" className={css.selectTeamName}>
+            <a href={'/'}>3+3 digital innovational HAB</a>
+          </li>
         </ul>
       </form>
     </aside>

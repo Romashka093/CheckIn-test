@@ -20,16 +20,19 @@ function MemberCard({ members }) {
               </div>
               <p className={css.memberName}>{member.name}</p>
               <p className={css.memberPosition}>{member.position}</p>
-            </div>
-            <div className={css.memberActivities}>
-              <ul className={css.activities}>
-                {member.activitys.map(activity => (
-                  <li className={css.activity} key={activity.name}>
-                    <p className={css.percentOfActivity}>{activity.percent}</p>
-                    <p className={css.activityName}>{activity.name}</p>
-                  </li>
-                ))}
-              </ul>
+
+              <div className={css.memberActivities}>
+                <ul className={css.activities}>
+                  {member.activitys.map(activity => (
+                    <li className={css.activity} key={activity.name}>
+                      <p className={css.percentOfActivity}>
+                        {activity.percent}
+                      </p>
+                      <p className={css.activityName}>{activity.name}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         </li>

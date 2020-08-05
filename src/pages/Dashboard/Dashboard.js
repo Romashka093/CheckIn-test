@@ -7,36 +7,51 @@ import MemberList from '../../components/MemberList/MemberList';
 import TeamSettings from '../../components/Menu/TeamSettings/TeamSettings';
 import TeamStatistic from '../../components/Menu/TeamStatistic/TeamStatistic';
 import SideBar from '../../components/Heading/SideBar/SideBar';
-console.log(members);
-// import css from './Dashboard.module.css';
+import css from './Dashboard.module.css';
 
 class Dashboard extends Component {
   state = {
-    isOpenMenue: false,
+    isOpenMenu: false,
+    isOpenSideBar: false,
   };
 
   handleOpenMenu = evt => {
     if (evt.target) {
-      this.setState({ isOpenMenue: !this.state.isOpenMenue });
+      this.setState({ isOpenMenu: !this.state.isOpenMenu });
     }
   };
 
+  handleOpenSideBar(evt) {
+    evt.preventDefault();
+    if (evt.target) {
+      this.setState({ isOpenSideBar: !this.state.isOpenSideBar });
+    }
+  }
+
   render() {
-    const { isOpenMenue } = this.state;
+    const { isOpenMenu, isOpenSideBar } = this.state;
     return (
       <Fragment>
-        {!isOpenMenue ? (
+        {!isOpenMenu ? (
           <Fragment>
-            {window.matchMedia('(min-width: 1024px)').matches && <SideBar />}
-            <Heading handleOpenMenu={this.handleOpenMenu} />
-            <main>
-              {/* {window.matchMedia('(min-width: 1024px)').matches && <TeamSettings />} */}
-              <Search />
-              {window.matchMedia('(min-width: 1024px)').matches && (
-                <TeamStatistic />
-              )}
-              <MemberList members={members} />
-            </main>
+            {isOpenSideBar &&
+              window.matchMedia('(min-width: 1024px)').matches && <SideBar />}
+            <div className={isOpenSideBar && css.containerForSideBar}>
+              <Heading
+                handleOpenMenu={this.handleOpenMenu}
+                handleOpenSideBar={this.handleOpenSideBar.bind(this)}
+              />
+              <main>
+                {window.matchMedia('(min-width: 1024px)').matches && (
+                  <TeamSettings />
+                )}
+                <Search />
+                {window.matchMedia('(min-width: 1024px)').matches && (
+                  <TeamStatistic />
+                )}
+                <MemberList members={members} />
+              </main>
+            </div>
           </Fragment>
         ) : (
           <Menu handleOpenMenu={this.handleOpenMenu} />

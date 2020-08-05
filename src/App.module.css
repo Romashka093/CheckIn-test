@@ -11,7 +11,7 @@ body {
 a {
   display: block;
   text-decoration: none;
-  outline-color: #6e73f0;
+  outline: none;
 }
 
 img {

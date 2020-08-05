@@ -193,10 +193,8 @@
   }
   /* 
     .teamMemberInfoCard {}
-    .teamMemberInfoCard:hover {}
     .member {}
     .mamberInfo {}
-    .mamberInfo::after {}
     .memberAvatar {}
     .memberAvatar::before,
     .memberAvatar::after {}
@@ -225,4 +223,10 @@
 }
 
 @media (min-width: 1024px) {
+  .mamberInfo::after {
+    visibility: hidden;
+  }
+  .mamberInfo:hover::after {
+    visibility: visible;
+  }
 }

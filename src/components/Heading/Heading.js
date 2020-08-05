@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import css from './Heading.module.css';
 import Nav from './Nav/Nav';
 import Logo from './Logo/Logo';
@@ -12,7 +12,7 @@ class Heading extends Component {
         <div className={css.container}>
           <Nav handleOpenMenu={this.props.handleOpenMenu} />
           <div className={css.headerMobile}>
-            <Logo />
+            <Logo handleOpenSideBar={this.props.handleOpenSideBar} />
             <User />
           </div>
         </div>
