@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "80b77448f32a0fe347ccabfe9c21047c",
+    "revision": "d2522d59347041dde97dc9f77470220b",
     "url": "/check-in-test/index.html"
   },
   {
-    "revision": "c573d4f09c7e3099af35",
-    "url": "/check-in-test/static/css/main.5c51b808.chunk.css"
+    "revision": "f5eb00f23a5209029734",
+    "url": "/check-in-test/static/css/main.89161c9e.chunk.css"
   },
   {
-    "revision": "3ff19126cb41cbc3f32b",
-    "url": "/check-in-test/static/js/2.ef470450.chunk.js"
+    "revision": "433c3bfa0f0eaa048dc8",
+    "url": "/check-in-test/static/js/2.24f6d8d3.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/check-in-test/static/js/2.ef470450.chunk.js.LICENSE.txt"
+    "url": "/check-in-test/static/js/2.24f6d8d3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c573d4f09c7e3099af35",
-    "url": "/check-in-test/static/js/main.be11edbc.chunk.js"
+    "revision": "f5eb00f23a5209029734",
+    "url": "/check-in-test/static/js/main.ce6b2a00.chunk.js"
   },
   {
     "revision": "1122cd8d2517618b769c",
@@ -48,6 +48,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/check-in-test/static/media/TTNormsPro-Regular.76e68770.woff"
   },
   {
+    "revision": "7afdbd1046c87020c76cdca7a82ecb7e",
+    "url": "/check-in-test/static/media/background-of-team-title-1.7afdbd10.svg"
+  },
+  {
     "revision": "5a24dbf99501ef219c198a94fd6ca18a",
     "url": "/check-in-test/static/media/blue-bell.5a24dbf9.svg"
   },
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "10047d798e10420c72903ada561ca646",
     "url": "/check-in-test/static/media/blue-title-team-mobile.10047d79.svg"
+  },
+  {
+    "revision": "75fc3df2f5ffb5f0304ccc0d6a554ed4",
+    "url": "/check-in-test/static/media/border.75fc3df2.svg"
   },
   {
     "revision": "ccadfa804e59e45cf3b3744b7498fa0c",
@@ -174,6 +182,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4c2fbb30301fb401143cb357524e2c4a",
     "url": "/check-in-test/static/media/person.4c2fbb30.svg"
+  },
+  {
+    "revision": "35c84b9a4cf4016721819684822eb7d9",
+    "url": "/check-in-test/static/media/plus.35c84b9a.svg"
   },
   {
     "revision": "4d7489be63957110950e089650ff4281",
