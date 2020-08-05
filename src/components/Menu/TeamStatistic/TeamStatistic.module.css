@@ -1,0 +1,150 @@
+.sectionTitle {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #414178;
+  text-align: left;
+}
+
+.statisticContainers {
+  background: #ffffff;
+  border: 1px solid #e7eaf0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  /* transform: rotate(90deg); */
+  margin-bottom: 20px;
+}
+
+/* .allTeamContainers {} */
+
+.activityContainer {
+  padding: 54px;
+  background-image: url(../../../assets/img/progress-elipse/semi-ellipse.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.activityContainer:not(:last-child) {
+  border-bottom: 1px solid #e7eaf0;
+}
+
+.activityContainer::after {
+  position: absolute;
+  content: '';
+  width: 20px;
+  height: 20px;
+  bottom: 55%;
+  left: 47%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../../assets/img/percent.svg);
+}
+
+.activityContainer:last-child::after {
+  background-image: url(../../../assets/img/hurd.svg);
+}
+
+.activityContainer::before {
+  position: absolute;
+  content: '';
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 35px;
+}
+
+.activityContainer:first-child::before {
+  background-image: url(../../../assets/img/progress-elipse/blue-progress-elipse.svg);
+}
+
+.activityContainer:nth-child(2)::before {
+  background-image: url(../../../assets/img/progress-elipse/green-progress-elipse.svg);
+}
+
+.activityContainer:nth-child(3)::before {
+  background-image: url(../../../assets/img/progress-elipse/red-progress-elipse.svg);
+}
+
+.activityContainer:nth-child(4)::before {
+  background-image: url(../../../assets/img/progress-elipse/yellow-progress-elipse.svg);
+}
+
+/* .visualProgressStatistic {} */
+
+.totalPercentOfActivity {
+  font-family: TT Norms Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: 0.01em;
+  padding-top: 46px;
+  margin-bottom: 8px;
+}
+
+.activityContainer:first-child {
+  color: #6e73f0;
+}
+
+.activityContainer:nth-child(2) {
+  color: #5ecba1;
+}
+
+.activityContainer:nth-child(3) {
+  color: #f06563;
+}
+
+.activityContainer:nth-child(4) {
+  color: #e6a647;
+}
+
+.teamActivityName {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  color: #111157;
+  text-transform: lowercase;
+}
+
+.teamActivityName::first-letter {
+  text-transform: uppercase;
+}
+
+@media (min-width: 767px) {
+  .sectionTitle {
+    margin-bottom: 10px;
+  }
+  .allTeamContainers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .activityContainer {
+    padding: 50px 124px;
+  }
+  .activityContainer:not(:last-child) {
+    border-bottom: none;
+  }
+  .activityContainer:nth-child(odd) {
+    border-right: 1px solid #e7eaf0;
+  }
+  .activityContainer:nth-child(1),
+  .activityContainer:nth-child(2) {
+    border-bottom: 1px solid #e7eaf0;
+  }
+  .activityContainer::before {
+    left: 45px;
+  }
+  .totalPercentOfActivity {
+    width: 110px;
+  }
+}

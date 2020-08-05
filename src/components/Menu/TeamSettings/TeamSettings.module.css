@@ -1,0 +1,215 @@
+.teamSettings {
+  margin-bottom: 20px;
+  width: 320px;
+}
+
+.settings {
+  position: relative;
+}
+
+.setting::before {
+  position: absolute;
+  content: '';
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.setting:first-child {
+  margin-bottom: 12px;
+  padding: 12px;
+  border: 1px solid #6e73f0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.setting:first-child::before {
+  position: absolute;
+  content: '';
+  background-image: url(../../../assets/img/settings/blue-bell.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 60px;
+}
+
+.setting:first-child a {
+  color: #6e73f0;
+  outline: none;
+}
+
+.setting:first-child:hover,
+.setting:first-child:focus {
+  background-color: #e5e6f8;
+  border: 1px solid #6569db;
+  border-radius: 4px;
+  transition: 0.2s ease 0.2s;
+}
+
+.setting:first-child a:active,
+.setting:first-child:active {
+  background-color: #e5e6f8;
+  border: 1px solid #6569db;
+  border-radius: 4px;
+  transition: 0.2s ease 0.2s;
+}
+
+.setting:nth-child(2)::before {
+  background-image: url(../../../assets/img/settings/person.svg);
+  left: 76px;
+}
+
+.setting:last-child::before {
+  background-image: url(../../../assets/img/settings/pen.svg);
+  left: 63px;
+}
+
+.setting:not(:first-child) {
+  margin-bottom: 12px;
+  padding: 12px;
+  background: #6e73f0;
+  border: 1px solid #6e73f0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.setting:not(:first-child) a {
+  color: #ffffff;
+  outline: none;
+}
+
+.setting:not(:first-child):hover,
+.setting:not(:first-child):focus {
+  border: 1px solid #6e73f0;
+  background-color: #6e73f0;
+  box-shadow: 0px 4px 16px #6e73f052;
+  border-radius: 4px;
+  transition: 0.2s ease 0.2s;
+}
+
+.setting:not(:first-child) a:active,
+.setting:not(:first-child):active {
+  background-color: #6569db;
+  border-radius: 4px;
+  transition: 0.2s ease 0.2s;
+}
+
+@media (min-width: 767px) {
+  .teamSettings {
+    margin-bottom: 0;
+    width: inherit;
+  }
+  .settings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .setting {
+    width: 200px;
+    position: relative;
+  }
+  .setting:not(:first-child) a {
+    padding-left: 32px;
+  }
+  .setting:first-child {
+    width: 232px;
+    padding-left: 48px;
+  }
+  .setting:first-child::before {
+    left: 26px;
+  }
+  .setting:nth-child(2)::before {
+    left: 22px;
+  }
+  .setting:last-child::before {
+    left: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* 
+        .teamSettings {
+            margin-bottom: 20px;
+            width: 320px;
+        }
+        .settings {
+            position: relative;
+        }
+    .setting::before {
+        position: absolute;
+        content: '';
+        width: 16px;
+        height: 16px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .setting:first-child {
+        margin-bottom: 12px;
+        padding: 12px;
+        border: 1px solid #6e73f0;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .setting:first-child::before {
+        position: absolute;
+        content: '';
+        background-image: url(../../assets/img/settings/blue-bell.svg);
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        left: 60px;
+    }
+    .setting:first-child a {
+        color: #6e73f0;
+        outline: none;
+    }
+    .setting:first-child:hover,
+    .setting:first-child:focus {
+        background-color: #e5e6f8;
+        border: 1px solid #6569db;
+        border-radius: 4px;
+        transition: 0.2s ease 0.2s;
+    }
+    .setting:first-child a:active,
+    .setting:first-child:active {
+        background-color: #e5e6f8;
+        border: 1px solid #6569db;
+        border-radius: 4px;
+        transition: 0.2s ease 0.2s;
+    }
+    .setting:nth-child(2)::before {
+        background-image: url(../../assets/img/settings/person.svg);
+        left: 76px;
+    }
+    .setting:last-child::before {
+        background-image: url(../../assets/img/settings/pen.svg);
+        left: 63px;
+    }
+    .setting:not(:first-child) {
+        margin-bottom: 12px;
+        padding: 12px;
+        background: #6e73f0;
+        border: 1px solid #6e73f0;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .setting:not(:first-child) a {
+        color: #ffffff;
+        outline: none;
+    }
+    .setting:not(:first-child):hover,
+    .setting:not(:first-child):focus {
+        border: 1px solid #6e73f0;
+        background-color: #6e73f0;
+        box-shadow: 0px 4px 16px #6e73f052;
+        border-radius: 4px;
+        transition: 0.2s ease 0.2s;
+    }
+    .setting:not(:first-child) a:active,
+    .setting:not(:first-child):active {
+        background-color: #6569db;
+        border-radius: 4px;
+        transition: 0.2s ease 0.2s;
+    } */
+}

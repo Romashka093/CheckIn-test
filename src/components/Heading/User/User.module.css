@@ -1,0 +1,61 @@
+/* USER */
+
+.user {
+  cursor: pointer;
+}
+
+.userAvatar img {
+  width: 40px;
+}
+
+.userName,
+.userPosition {
+  display: none;
+}
+
+@media (min-width: 767px) {
+  .userAvatar img {
+    width: 56px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 990px;
+  }
+  /* .user {} */
+  .userInfo {
+    display: flex;
+    width: 220px;
+    align-items: center;
+  }
+  .userDataWrap {
+    margin-right: 16px;
+  }
+  .userName {
+    /* position: relative; */
+    display: inherit;
+    font-family: TT Norms Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #5b72d5;
+  }
+  .userPosition {
+    display: inherit;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    color: #9fa4af;
+  }
+  /* 
+
+*/
+}

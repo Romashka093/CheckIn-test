@@ -1,0 +1,118 @@
+.userActions {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  font-family: TT Norms Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #9fa4af;
+}
+
+.userActionItem {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.userTeamLink,
+.checkingTeamLink {
+  color: #9fa4af;
+}
+
+.userTeamLink:hover,
+.userTeamLink:active,
+.userTeamLink:focus,
+.checkingTeamLink:hover,
+.checkingTeamLink:active,
+.checkingTeamLink:focus {
+  color: #6e73f0;
+}
+
+.userTeamLink::after,
+.userTeamLink::before,
+.checkingTeamLink::after,
+.checkingTeamLink::before {
+  position: absolute;
+  display: block;
+  content: '';
+  width: 50%;
+  background-color: #e7eaf0;
+}
+
+.userTeamLink::before {
+  top: 0;
+  left: 0;
+  height: 1px;
+}
+
+.userTeamLink::after {
+  bottom: 0;
+  right: 50%;
+  height: 2px;
+}
+
+.checkingTeamLink::after {
+  bottom: 0;
+  right: 0;
+  height: 2px;
+}
+
+.checkingTeamLink::before {
+  top: 0;
+  left: 50%;
+  height: 1px;
+}
+
+.userTeamLink:hover::after,
+.userTeamLink:active::after,
+.userTeamLink:focus::after {
+  color: #6e73f0;
+  background-color: #6e73f0;
+  border-radius: 1px;
+}
+
+.checkingTeamLink:hover::after,
+.checkingTeamLink:focus::after,
+.checkingTeamLink:active::after {
+  color: #6e73f0;
+  background-color: #6e73f0;
+  border-radius: 1px;
+}
+
+/* @media (min-width: 767px) {
+    .container {
+        max-width: 720px;
+    }
+} */
+
+@media (min-width: 1024px) {
+  .container {
+    position: absolute;
+    max-width: 376px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+  .userActionItem {
+    padding: 52px 30px 26px 30px;
+  }
+  /* 
+    .userActions {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    */
+  .userTeamLink::before,
+  .checkingTeamLink::before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 0;
+    background: none;
+  }
+}

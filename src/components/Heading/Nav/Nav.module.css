@@ -1,0 +1,52 @@
+.navigation {
+  position: relative;
+  display: inline-block;
+}
+
+/* BURGER */
+
+.burger {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #6e73f0;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-color: initial;
+  outline: none;
+  cursor: pointer;
+}
+
+.burgerBar {
+  position: absolute;
+  height: 2px;
+  width: 16px;
+  background-color: #6e73f0;
+  border-radius: 5px;
+  top: 18px;
+  left: 12px;
+  cursor: pointer;
+}
+
+.burgerBar::before,
+.burgerBar::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 16px;
+  background-color: #6e73f0;
+  border-radius: 5px;
+}
+
+.burgerBar::after {
+  top: 4px;
+}
+
+.burgerBar::before {
+  top: -4px;
+}
+
+@media (min-width: 1024px) {
+  .navigation {
+    display: none;
+  }
+}

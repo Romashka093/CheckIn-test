@@ -1,0 +1,27 @@
+.asideBar {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 64px;
+  }
+  .asideBar {
+    display: inherit;
+    position: fixed;
+  }
+  .teamForm {
+    width: 64px;
+    height: 100vh;
+    background: #3b3b66;
+  }
+  .selectTeamName {
+    background-image: url(../../../assets/img/sideBar/background-of-team-title-1.svg);
+    background-repeat: no-repeat;
+  }
+  /* 
+    .teamList {} 
+    . {}
+    . {}
+    */
+}

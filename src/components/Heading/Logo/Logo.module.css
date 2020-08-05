@@ -1,0 +1,19 @@
+/* .logo {} */
+
+.logoImg {
+  width: 122px;
+  margin-right: 68px;
+}
+
+@media (min-width: 767px) {
+  .logoImg {
+    width: 183px;
+    margin-right: 212px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .logoImg {
+    margin-right: 0;
+  }
+}

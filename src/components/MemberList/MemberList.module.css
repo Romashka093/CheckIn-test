@@ -1,0 +1,26 @@
+/* TEAM CARDS */
+
+/* .member {} */
+
+/* .teamCardsSection {} */
+
+.container {
+  max-width: 336px;
+  margin: 0 auto;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@media (min-width: 767px) {
+  /* .teamCardsSection {} */
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 990px;
+  }
+}
