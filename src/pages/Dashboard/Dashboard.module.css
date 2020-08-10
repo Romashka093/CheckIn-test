@@ -1,3 +1,9 @@
 .containerForSideBar {
   margin-left: 64px;
 }
+
+@media (min-width: 1920px) {
+  .containerForSideBar {
+    margin-left: 80px;
+  }
+}

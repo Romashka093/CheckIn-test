@@ -39,6 +39,7 @@ class Dashboard extends Component {
             <div
               className={isOpenSideBar ? css.containerForSideBar : undefined}
             >
+              {window.matchMedia('(min-width: 1920px)').matches && <SideBar />}
               <Heading
                 handleOpenMenu={this.handleOpenMenu}
                 handleOpenSideBar={this.handleOpenSideBar.bind(this)}

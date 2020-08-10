@@ -211,3 +211,9 @@
     line-height: 19px;
   }
 }
+
+@media (min-width: 1920px) {
+  .teamSettings {
+    max-width: 1736px;
+  }
+}

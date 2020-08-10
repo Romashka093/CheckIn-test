@@ -195,3 +195,9 @@
     left: 48px;
   }
 }
+
+@media (min-width: 1920px) {
+  .statisticContainers {
+    width: 1736px;
+  }
+}

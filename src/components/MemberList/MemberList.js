@@ -9,6 +9,14 @@ class MemberList extends Component {
   render() {
     const { members } = this.props.members;
 
+    members.map(member => {
+      let initials = member.name.match(/\b\w/g) || [];
+      initials = (
+        (initials.shift() || '') + (initials.pop() || '')
+      ).toUpperCase();
+      return console.log(initials);
+    });
+
     return (
       members.length > 0 && (
         <section className={css.teamCardsSection}>

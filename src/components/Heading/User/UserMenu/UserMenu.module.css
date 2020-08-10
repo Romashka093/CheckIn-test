@@ -114,3 +114,9 @@
     padding: 52px 20px 22px 20px;
   }
 }
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1736px;
+  }
+}

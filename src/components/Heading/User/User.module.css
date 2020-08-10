@@ -50,3 +50,9 @@
     color: #9fa4af;
   }
 }
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1736px;
+  }
+}

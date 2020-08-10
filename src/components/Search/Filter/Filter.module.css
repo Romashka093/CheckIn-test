@@ -17,6 +17,7 @@
     box-sizing: border-box;
     border-radius: 4px;
     margin-bottom: 24px;
+    padding: 4px 0;
   }
   .filterCategoryType {
     display: flex;
@@ -32,7 +33,7 @@
     color: #7175d8;
   }
   .filterItemType {
-    padding: 10px;
+    padding: 10px 20px;
   }
   .filterItemType:not(:last-child) {
     border-right: 1px solid #e7eaf0;
@@ -73,4 +74,10 @@
   .filterCategoryType {
     font-size: 14px;
   }
+}
+
+@media (min-width: 1920px) {
+  /* .container {
+      max-width: 1736px;
+    } */
 }

@@ -90,3 +90,12 @@
     visibility: visible;
   }
 }
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 80px;
+  }
+  .teamForm {
+    width: 80px;
+  }
+}
